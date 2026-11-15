@@ -103,7 +103,29 @@ lab-web/
 
 ## Getting started
 
-_To be filled in once the project is set up (Node version, `npm install`, `npm run dev`)._
+### Prerequisites
+
+- **Node.js LTS** (version 22 or newer; Vite requires `^20.19.0` or `>=22.12.0`). Download it from [nodejs.org](https://nodejs.org/) and check with `node -v`.
+- **Git**
+
+### Set up and run
+
+```bash
+git clone https://github.com/ieee-chicago-epics/lab-web.git
+cd lab-web
+npm install
+npm run dev
+```
+
+`npm run dev` starts the Vite dev server and prints a local address (usually <http://localhost:5173>). Open it in Chrome; you should see the placeholder home page. The page reloads automatically when you edit a file.
+
+### Other commands
+
+| Command | What it does |
+|---|---|
+| `npm run build` | Type-checks and builds the app into `dist/` |
+| `npm run preview` | Serves the built `dist/` locally |
+| `npm run lint` | Runs the linter |
 
 ---
 
